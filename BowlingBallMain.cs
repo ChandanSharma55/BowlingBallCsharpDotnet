@@ -27,16 +27,6 @@ namespace BowlingBall
             _rollManager.OpenOrSpareRoll(8, 2);
             _rollManager.LastRoll(9, 1, 10);
 
-            //_rollManager.OpenOrSpareRoll(3, 3);
-            //_rollManager.OpenOrSpareRoll(3, 3);
-            //_rollManager.OpenOrSpareRoll(4, 4);
-            //_rollManager.OpenOrSpareRoll(4, 4);
-            //_rollManager.OpenOrSpareRoll(5, 5);
-            //_rollManager.OpenOrSpareRoll(5, 5);
-            //_rollManager.OpenOrSpareRoll(6, 6);
-            //_rollManager.OpenOrSpareRoll(6, 6);
-            //_rollManager.OpenOrSpareRoll(7, 7);
-            //_rollManager.OpenOrSpareRoll(7, 7);
 
             Console.WriteLine(_rollManager.CalculateScore());
         }
